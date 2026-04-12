@@ -101,6 +101,12 @@ a.bg-secondary:hover {
   margin-left: 0px;
   max-width: 350px !important;
 }
+
+.luxury-card:hover {
+  cursor: pointer;
+  transition: transform 0.3s ease-out;
+  transform: translateY(8px);
+}
 /* Mobile view adjustments */
 @media (max-width: 576px) {
   .video-subtitle {
@@ -136,7 +142,7 @@ a.bg-secondary:hover {
     margin-top: 35px;
   }
 
-  .top-nav{
+  .top-nav {
     display: none !important;
   }
 }
